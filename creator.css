@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: #1f242d;
+    
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between ;
+    align-items:center;
+    z-index: 100;
+    
+
+}
+.logo{
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    cursor:default;
+    margin-left: 20px;
+   
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100hv;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+    margin-top: 50px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content  p{
+color: aliceblue;
+}
+.home-content h3 span{
+    color: #0ef;
+}
+
+.home-content h3:nth-last-of-type(2){
+    margin-bottom: 30px;
+}
+.social-media a{
+    display: inline-flex;
+     justify-content: center;
+     width: 40px;
+     height: 40px;
+     font-size: 40px;
+     margin: 30px 15px 30px 0;
+}
+.social-media a:hover{
+    background-color: rgb(125, 232, 227);
+    color: #1150c6;
+    box-shadow: 0 0 20px rgb(3, 229, 254);
+}
+.box{
+    position: relative;
+    width: 350px;
+    height: 420px;
+    background: rgb(0, 117, 128);
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px  rgb(235, 234, 239) ;
+    
+    
+    
+}
+.box-content{
+    position: absolute;
+    width: 100%;
+    height:  100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background-color: rgb(58, 55, 77);
+    border-radius: 20px;
+   
+}
+.box-front{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #0a4dc9;
+
+    color: azure;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+
+}
+.box-content:hover{
+    transform: rotateY(180deg);
+
+}
+.box-back p{
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 17%;
+    font-weight: 900;
+    
+
+}
+.box-front img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transition-duration: 0.7s;
+    box-shadow:  5px 5px 20px rgb(220, 133, 220);
+   
+   
+}
+.home-content h1{
+    font-weight: 900;
+    font-size: 80px;
+   
+}
+
+.friends{
+    color: aqua;
+    
+}
+.friends:hover{
+    cursor: pointer;
+    
+}
+.span1{
+   
+   font-weight: 900;
+   font-size: 30px;
+   color: aliceblue;
+}

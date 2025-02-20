@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imagesS7/keyboard-5017973.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+
+
+}
+.navbar{
+    height: 20%;
+    
+    display: flex;
+    align-items:center;
+
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+.row{
+    display: flex;
+    height: 68%;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: azure;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+
+}
+
+.card{
+    width:270px;
+    height: 150px;
+    display:inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 12px;
+    background-color: aqua ;
+    background-position: center;
+    background-size: cover;  
+    text-align: center;  
+    padding-top: 20px;
+    transition: transform 0.5s;
+}
+.card1{
+    
+    background-image: url(imagesS7/human.png);
+    
+   
+}
+
+
+.text{
+    color:rgb(249, 249, 249);
+    margin-top: 50%;
+}
+.card:hover{
+       transform: translatey(-20px);
+       box-shadow: 6px 6px 40px 30px rgb(247, 3, 219);
+}
+

@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>mahendrabook.com</title>
+        <link rel="icon" type="image/x-icon" href="imagesM/book.jpg">
+        <link rel="stylesheet" href="stylemukeshmahendra.css"> 
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navigation-bar">
+                <div class="hero">
+                    <div class="container">
+                        <div class="clock">
+                            <span id="hours">00</span>
+                            <span>:</span>
+                            <span id="min">00</span>
+                            <span>:</span>
+                            <span id="sec">00</span>
+                            
+                            
+                        </div>
+        
+                    </div>
+                    
+                </div>
+                <img src="imagesM/mei.png" class="logo"> 
+                <ul>
+                 <li><a  href="1ST YEAR.html" >1st year</a></li>
+                 <li><a href="2ND YEAR.HTML" >2nd year</a></li>
+                 <li><a href="3RD YEAR.HTML" >3rd year</a></li>
+                 <li><a href="4TH YEAR.HTML" >4th year</a></li>   
+                </ul>
+            </div>
+        </div>
+        <div class="maha">
+          <h1>Mahendra College of Engineering</h1>  
+          <p>Mahendra College of Engineering is now “Band C” institutions in the Atal Ranking of Institutions on Innovation Achievement in ARIIA 2020.</p>
+        <a  href="https://www.facebook.com/Mahendra.Engineering.College.Salem/"  class="button" type="button"><span class="span"></span>facebook</a>
+        <a  href="https://www.mahendracollege.com/"  class="button" type="button"><span class="span"></span>about us</a>
+       
+        <a href="creator.html"  class="creatoricon">created by</a>
+         
+        </div>
+        
+
+        </div>
+        
+
+        <style>
+
+        </style>
+         <script>
+            let hours = document.getElementById("hours");
+            let min = document.getElementById("min");
+            let sec = document.getElementById("sec");
+             let currentTime = new Date();
+             setInterval(()=>{
+                let currentTime= new Date();
+            
+    
+        hours.innerHTML = (currentTime.getHours()<10?"0":"") + currentTime.getHours();
+        min.innerHTML = (currentTime.getMinutes()<10?"0":"") + currentTime.getMinutes();;
+        sec.innerHTML =( currentTime.getSeconds()<10?"0":"") + currentTime.getSeconds();;
+    },1000)
+    
+        </script>
+    </body>
+</html>
